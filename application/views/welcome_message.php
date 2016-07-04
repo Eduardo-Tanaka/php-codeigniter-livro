@@ -1,11 +1,9 @@
-<?php
-defined('BASEPATH') OR exit('No direct script access allowed');
-?><!DOCTYPE html>
+<?php defined('BASEPATH') OR exit('No direct script access allowed'); ?>
+<!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta charset="utf-8">
-	<title>Welcome to CodeIgniter</title>
-
+	<script type="text/javascript" src="<?=base_url('includes/js/jquery-3.0.0.min.js')?>"></script>
 	<style type="text/css">
 
 	::selection { background-color: #E13300; color: white; }
@@ -71,7 +69,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	<h1>Welcome to CodeIgniter!</h1>
 
 	<div id="body">
-		<p>The page you are looking at is being generated dynamically by CodeIgniter. TESTE</p>
+		<p>The page you are looking at is being generated dynamically by CodeIgniter.</p>
 
 		<p>If you would like to edit this page you'll find it located at:</p>
 		<code>application/views/welcome_message.php</code>
